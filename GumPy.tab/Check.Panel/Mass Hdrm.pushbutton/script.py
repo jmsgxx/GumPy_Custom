@@ -34,7 +34,6 @@ import os
 # ╩╩ ╩╩  ╚═╝╩╚═ ╩ # imports
 # ===================================================================================================
 from collections import OrderedDict
-from Snippets.Logger import _logger
 from Snippets._convert import convert_m_to_feet
 from rpw.ui.forms import FlexForm, Label, ComboBox, TextBox, Separator, Button
 from Snippets._x_selection import get_multiple_elements, ISelectionFilter_Classes, StairsFilter
@@ -189,8 +188,5 @@ except Exception as e:
 else:
     if mass_creation:
         forms.alert(title="Headroom Mass", msg="Mass Created", warn_icon=False, exitscript=False)
-
-
-_logger(__title__)
 
 
