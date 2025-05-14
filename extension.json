@@ -1,0 +1,14 @@
+{
+    "builtin": "False",
+    "default_enabled": "True",
+    "type": "extension",
+    "rocket_mode_compatible": "False",
+    "name": "GumPyTools",
+    "description": "Extensions made from pyRevit",
+    "author": "Joven Mark Gumana",
+    "author_profile": "https://www.linkedin.com/in/jovenmark/",
+    "url": "https://github.com/jmsgxx/GumPyTools.git",
+    "website": "https://github.com/jmsgxx",
+    "image": "",
+    "dependencies": []
+}
